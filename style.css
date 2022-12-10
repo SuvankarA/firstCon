@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+.signup {
+    position: absolute;
+    width: 1181px;
+    height: 812px;
+    left: 198px;
+    top: 154px;
+}
+
+h2 {
+
+    width: 600px;
+    height: 144px;
+    left: 202px;
+    top: 154px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 77px;
+    color: white;
+}
+
+#fullname {
+
+    width: 112px;
+    height: 29px;
+    left: 202px;
+    top: 278px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px; 
+    color: white;
+}
+
+#email {
+    width: 60px;
+    height: 29px;
+    left: 202px;
+    top: 352px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    color: white;
+}
+
+#password {
+    width: 109px;
+    height: 29px;
+    left: 202px;
+    top: 426px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    color: white;
+}
+
+#conpass {
+    width: 244px;
+    height: 29px;
+    left: 202px;
+    top: 500px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    color: white;
+}
+
+#dob {
+    width: 244px;
+    height: 58px;
+    left: 202px;
+    top: 574px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    color: white;
+}
+
+#std {
+    width: 244px;
+    height: 29px;
+    left: 229px;
+    top: 650px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    color: white;
+}
+
+#emp {
+    width: 244px;
+    height: 29px;
+    left: 407px;
+    top: 650px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    color: white;
+}
+
+#agreement {
+    width: 430px;
+    height: 29px;
+    left: 232px;
+    top: 709px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    color: white;
+}
+
+button {
+    width: 226px;
+    height: 58px;
+    left: 198px;
+    top: 808px;
+    background-color: white;
+}
+
+#Signup {
+    width: 81px;
+    height: 33px;
+    left: 266px;
+    top: 820px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    background-color: white;
+}
+#name, #pass, #cpass, #db{
+    width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid white;
+}

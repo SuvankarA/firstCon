@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="icon" type="image/x-icon" href="/icons/icons8-home-48.png">
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MySignUpForm</title>
+</head>
+
+<body>
+    <div class="main">
+        <div class="signup">
+            <h2>Sign Up</h2>
+            <form id="signup" method="post">
+                <label id="fullname">Full Name</label>
+                <input type="text" name="fname" id="name" required><br>
+
+                <label id="email">Email</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="email" name="email" id="name" required><br>
+
+                <label id="password">Password</label>
+                <input type="password" name="password" id="pass" required><br>
+
+                <label id="conpass">Confirm Password</label>
+                <input type="password" name="cpassword" id="cpass" required><br>
+
+                <label id="dob">DOB</label>
+                <input type="date" name="dob" id="db" required><br>
+
+                <input type="radio" name="prof" id="student" required>
+                &nbsp;
+                <span id="std">Student</span>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="radio" name="prof" id="Employee" required>
+                &nbsp;
+                <span id="emp">Employee</span>
+                <br><br>
+                <input type="checkbox" name="am" id="am" required>
+                &nbsp;
+                <span id="agreement">I agree to all the Terms and Conditions</span>
+                <br><br><br>
+                <button type="submit" form="signup" value="signup"><span id="Signup">Sign Up</span>
+                </button>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
